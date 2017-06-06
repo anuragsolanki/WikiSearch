@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SearchResult" representedClassName="SearchResult" syncable="YES" codeGenerationType="class">
+        <attribute name="pageId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pageImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="searchText" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SearchText" inverseName="results" inverseEntity="SearchText" syncable="YES"/>
+    </entity>
+    <entity name="SearchText" representedClassName="SearchText" syncable="YES" codeGenerationType="class">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SearchResult" inverseName="searchText" inverseEntity="SearchResult" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SearchResult" positionX="-162" positionY="-117" width="128" height="148"/>
+        <element name="SearchText" positionX="70" positionY="-147" width="128" height="73"/>
+    </elements>
+</model>

@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E8C4BB1A4C16F1ECD7D86C /* Pods_CastleGlobalAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB11E2AC4F4C317717B2115F /* Pods_CastleGlobalAssignment.framework */; };
+		3B11B4511EE6BE3F005504CE /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11B4501EE6BE3F005504CE /* MyCollectionViewCell.swift */; };
+		3B3EC9101EE6732F00F6E5C1 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EC90F1EE6732F00F6E5C1 /* DetailVC.swift */; };
+		3B3EC9131EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EC9111EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodeld */; };
+		3B5595891EE6443E007EA9C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5595861EE6443E007EA9C1 /* ViewController.swift */; };
+		3B55958B1EE64491007EA9C1 /* WikiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B55958A1EE64491007EA9C1 /* WikiResult.swift */; };
+		3B55958E1EE64545007EA9C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B55958D1EE64545007EA9C1 /* Constants.swift */; };
+		3B5595901EE645B2007EA9C1 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B55958F1EE645B2007EA9C1 /* ResultsTableViewCell.swift */; };
+		3B5595921EE64604007EA9C1 /* WebHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5595911EE64604007EA9C1 /* WebHelper.swift */; };
+		3B7ECC691EE5924F00D2ABF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7ECC681EE5924F00D2ABF4 /* AppDelegate.swift */; };
+		3B7ECC6E1EE5924F00D2ABF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7ECC6C1EE5924F00D2ABF4 /* Main.storyboard */; };
+		3B7ECC701EE5924F00D2ABF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7ECC6F1EE5924F00D2ABF4 /* Assets.xcassets */; };
+		3B7ECC731EE5924F00D2ABF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7ECC711EE5924F00D2ABF4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21C4C07E96437BD2A4BBE895 /* Pods-CastleGlobalAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastleGlobalAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastleGlobalAssignment/Pods-CastleGlobalAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		3B11B4501EE6BE3F005504CE /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B3EC90F1EE6732F00F6E5C1 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		3B3EC9121EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CastleGlobalAssignment.xcdatamodel; sourceTree = "<group>"; };
+		3B5595861EE6443E007EA9C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B55958A1EE64491007EA9C1 /* WikiResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiResult.swift; sourceTree = "<group>"; };
+		3B55958D1EE64545007EA9C1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3B55958F1EE645B2007EA9C1 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		3B5595911EE64604007EA9C1 /* WebHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebHelper.swift; sourceTree = "<group>"; };
+		3B7ECC651EE5924F00D2ABF4 /* CastleGlobalAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastleGlobalAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7ECC681EE5924F00D2ABF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B7ECC6D1EE5924F00D2ABF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7ECC6F1EE5924F00D2ABF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7ECC721EE5924F00D2ABF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B7ECC741EE5924F00D2ABF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714A647AC091D2B81CC9ED00 /* Pods-CastleGlobalAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastleGlobalAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastleGlobalAssignment/Pods-CastleGlobalAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		EB11E2AC4F4C317717B2115F /* Pods_CastleGlobalAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastleGlobalAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7ECC621EE5924F00D2ABF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E8C4BB1A4C16F1ECD7D86C /* Pods_CastleGlobalAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5595851EE6443E007EA9C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B5595861EE6443E007EA9C1 /* ViewController.swift */,
+				3B3EC90F1EE6732F00F6E5C1 /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B5595871EE6443E007EA9C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B55958A1EE64491007EA9C1 /* WikiResult.swift */,
+				3B3EC9111EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B5595881EE6443E007EA9C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B7ECC6C1EE5924F00D2ABF4 /* Main.storyboard */,
+				3B55958F1EE645B2007EA9C1 /* ResultsTableViewCell.swift */,
+				3B11B4501EE6BE3F005504CE /* MyCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B55958C1EE64533007EA9C1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3B55958D1EE64545007EA9C1 /* Constants.swift */,
+				3B5595911EE64604007EA9C1 /* WebHelper.swift */,
+			);
+			name = Utilities;
+			path = CastleGlobalAssignment/Utilities;
+			sourceTree = SOURCE_ROOT;
+		};
+		3B7ECC5C1EE5924F00D2ABF4 = {
+			isa = PBXGroup;
+			children = (
+				3B7ECC671EE5924F00D2ABF4 /* CastleGlobalAssignment */,
+				3B7ECC661EE5924F00D2ABF4 /* Products */,
+				3E9D66CA419643B94530F252 /* Pods */,
+				CB138DCE95A721A7E45ECB81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7ECC661EE5924F00D2ABF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7ECC651EE5924F00D2ABF4 /* CastleGlobalAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7ECC671EE5924F00D2ABF4 /* CastleGlobalAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				3B7ECC681EE5924F00D2ABF4 /* AppDelegate.swift */,
+				3B5595851EE6443E007EA9C1 /* Controller */,
+				3B5595871EE6443E007EA9C1 /* Model */,
+				3B5595881EE6443E007EA9C1 /* View */,
+				3B55958C1EE64533007EA9C1 /* Utilities */,
+				3B7ECC6F1EE5924F00D2ABF4 /* Assets.xcassets */,
+				3B7ECC711EE5924F00D2ABF4 /* LaunchScreen.storyboard */,
+				3B7ECC741EE5924F00D2ABF4 /* Info.plist */,
+			);
+			path = CastleGlobalAssignment;
+			sourceTree = "<group>";
+		};
+		3E9D66CA419643B94530F252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				714A647AC091D2B81CC9ED00 /* Pods-CastleGlobalAssignment.debug.xcconfig */,
+				21C4C07E96437BD2A4BBE895 /* Pods-CastleGlobalAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB138DCE95A721A7E45ECB81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB11E2AC4F4C317717B2115F /* Pods_CastleGlobalAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7ECC641EE5924F00D2ABF4 /* CastleGlobalAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7ECC771EE5924F00D2ABF4 /* Build configuration list for PBXNativeTarget "CastleGlobalAssignment" */;
+			buildPhases = (
+				452EF1BBC79146505BF4BDBB /* [CP] Check Pods Manifest.lock */,
+				3B7ECC611EE5924F00D2ABF4 /* Sources */,
+				3B7ECC621EE5924F00D2ABF4 /* Frameworks */,
+				3B7ECC631EE5924F00D2ABF4 /* Resources */,
+				FE4A96B5BBC26AD805E777B1 /* [CP] Embed Pods Frameworks */,
+				50E074C9BABA5ACC8AE48B83 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CastleGlobalAssignment;
+			productName = CastleGlobalAssignment;
+			productReference = 3B7ECC651EE5924F00D2ABF4 /* CastleGlobalAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7ECC5D1EE5924F00D2ABF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anurag Solanki";
+				TargetAttributes = {
+					3B7ECC641EE5924F00D2ABF4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B7ECC601EE5924F00D2ABF4 /* Build configuration list for PBXProject "CastleGlobalAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7ECC5C1EE5924F00D2ABF4;
+			productRefGroup = 3B7ECC661EE5924F00D2ABF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7ECC641EE5924F00D2ABF4 /* CastleGlobalAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7ECC631EE5924F00D2ABF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7ECC731EE5924F00D2ABF4 /* LaunchScreen.storyboard in Resources */,
+				3B7ECC701EE5924F00D2ABF4 /* Assets.xcassets in Resources */,
+				3B7ECC6E1EE5924F00D2ABF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452EF1BBC79146505BF4BDBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50E074C9BABA5ACC8AE48B83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastleGlobalAssignment/Pods-CastleGlobalAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE4A96B5BBC26AD805E777B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastleGlobalAssignment/Pods-CastleGlobalAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7ECC611EE5924F00D2ABF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5595921EE64604007EA9C1 /* WebHelper.swift in Sources */,
+				3B3EC9131EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodeld in Sources */,
+				3B11B4511EE6BE3F005504CE /* MyCollectionViewCell.swift in Sources */,
+				3B55958B1EE64491007EA9C1 /* WikiResult.swift in Sources */,
+				3B5595891EE6443E007EA9C1 /* ViewController.swift in Sources */,
+				3B7ECC691EE5924F00D2ABF4 /* AppDelegate.swift in Sources */,
+				3B55958E1EE64545007EA9C1 /* Constants.swift in Sources */,
+				3B5595901EE645B2007EA9C1 /* ResultsTableViewCell.swift in Sources */,
+				3B3EC9101EE6732F00F6E5C1 /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B7ECC6C1EE5924F00D2ABF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7ECC6D1EE5924F00D2ABF4 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3B7ECC711EE5924F00D2ABF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7ECC721EE5924F00D2ABF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7ECC751EE5924F00D2ABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7ECC761EE5924F00D2ABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7ECC781EE5924F00D2ABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714A647AC091D2B81CC9ED00 /* Pods-CastleGlobalAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CastleGlobalAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.CastleGlobalAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B7ECC791EE5924F00D2ABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C4C07E96437BD2A4BBE895 /* Pods-CastleGlobalAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CastleGlobalAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.CastleGlobalAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7ECC601EE5924F00D2ABF4 /* Build configuration list for PBXProject "CastleGlobalAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7ECC751EE5924F00D2ABF4 /* Debug */,
+				3B7ECC761EE5924F00D2ABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7ECC771EE5924F00D2ABF4 /* Build configuration list for PBXNativeTarget "CastleGlobalAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7ECC781EE5924F00D2ABF4 /* Debug */,
+				3B7ECC791EE5924F00D2ABF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B3EC9111EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B3EC9121EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodel */,
+			);
+			currentVersion = 3B3EC9121EE6901700F6E5C1 /* CastleGlobalAssignment.xcdatamodel */;
+			path = CastleGlobalAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B7ECC5D1EE5924F00D2ABF4 /* Project object */;
+}

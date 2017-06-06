@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CastleGlobalAssignment/Model/CoreDataModels/SearchText+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CastleGlobalAssignment/Model/CoreDataModels/SearchText+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CastleGlobalAssignment/Model/CoreDataModels/SearchResult+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CastleGlobalAssignment/Model/CoreDataModels/SearchResult+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CastleGlobalAssignment.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
